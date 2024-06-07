@@ -43,7 +43,7 @@
         <img src="https://techstack-generator.vercel.app/js-icon.svg" width="48" height="48" alt="NextJS" /><br>Javascript
     </td>
     <td align="center" width="96">
-        <img src="https://skillicons.dev/icons?i=nestjs" width="48" height="48" alt="NestJS" /><br>Nestjs
+        <img src="https://skillicons.dev/icons?i=nodejs&theme=dark" width="48" height="48" alt="Nodejs" /><br>Nodejs
     </td>
     <td align="center" width="96">
         <img src="https://skillicons.dev/icons?i=mongodb" width="48" height="48" alt="MongoDB" /><br>MongoDB
