@@ -80,6 +80,9 @@
 </table>
 
 ## About Me <img src="https://media.giphy.com/media/pDh3IDoUswmZrqdRip/giphy.gif" height="27px" width="25px">
+<br>
+<br>
+<p><img align="right" src="./images/animation-for-readme.gif" alt="programmer gif" /></p>
 
 - 🙌🏻&emsp; Let's collaborate
 - 🐍&emsp; I like developing with **Javascript 🤔**
