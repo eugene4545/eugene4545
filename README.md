@@ -57,16 +57,14 @@
       <img src="https://techstack-generator.vercel.app/restapi-icon.svg" width="48" height="48" alt="Rest" /><br>Rest
     </td>
     <td align="center" width="96">
-      <img src="https://techstack-generator.vercel.app/eslint-icon.svg" width="48" height="48" alt="Eslint" /><br>Eslint   
+      <img src="https://techstack-generator.vercel.app/prettier-icon.svg" width="48" height="48" alt="Vue" /><br>Prettier    
     </td>
     <td align="center" width="96">
       <img src="https://skillicons.dev/icons?i=postman" width="48" height="48" alt="Postman" /><br>Postman
     </td>
     <td align="center" width="96">
       <img src="https://skillicons.dev/icons?i=tailwind" width="48" height="48" alt="tailwind" /><br>Tailwind
-    </td>
-    <td align="center" width="96">
-      <img src="https://techstack-generator.vercel.app/django-icon.svg" alt="icon" width="65" height="65" /><br>Figma
+      <img src="https://skillicons.dev/icons?i=figma" alt="icon" width="65" height="65" /><br>figma
     </td>
     <td align="center" width="96">
         <img src="https://techstack-generator.vercel.app/jest-icon.svg" width="48" height="48" /><br>Jest
