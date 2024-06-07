@@ -56,13 +56,13 @@
       <img src="https://techstack-generator.vercel.app/restapi-icon.svg" width="48" height="48" alt="Rest" /><br>Rest
     </td>
     <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=vue" width="48" height="48" alt="Vue" /><br>Vue.js    
+      <img src="https://techstack-generator.vercel.app/prettier-icon.svg" width="48" height="48" alt="Vue" /><br>Prettier    
     </td>
     <td align="center" width="96">
       <img src="https://skillicons.dev/icons?i=postman" width="48" height="48" alt="Vuetify" /><br>Postman
     </td>
     <td align="center" width="96">
-      <img src="https://techstack-generator.vercel.app/django-icon.svg" alt="icon" width="65" height="65" /><br>figma
+      <img src="https://skillicons.dev/icons?i=figma" alt="icon" width="65" height="65" /><br>figma
     </td>
     <td align="center" width="96">
         <img src="https://techstack-generator.vercel.app/docker-icon.svg" width="48" height="48" /><br>Docker
