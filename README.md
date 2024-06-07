@@ -86,11 +86,11 @@
 
 - 🙌🏻&emsp; Let's collaborate
 - 🐍&emsp; I like developing with **Javascript 🤔**
-- 💬&emsp; Ask me about **Web development**
-- 👨‍💻&emsp; All of my projects are in [here](https://github.com/eugene4545)
-- ⚡&emsp; I have a rapid development speed **Quick**
-- 📧&emsp; Reach anytime: [here](mailto:eugeneonuoha72@gmail.com)
-- 💬&emsp; Leave issues [here](https://github.com/eugene4545)
+- 💬&emsp; Ask me about **Frontend Development - State Management - Databases - API and Integrations - Styling Frameworks - Version Control**
+- 👨‍💻&emsp; All of my projects are in [here](https://github.com/eugene4545?tab=repositories)
+- ⚡&emsp; I'm currently learning **NextJS**
+- 📧&emsp; Reach anytime: **eugeneonuoha72@gmail.com**
+<h3 align="left">Connect with me :</h3>
 
 
 <p align="center"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=eugene4545&rank=-C,-?" alt="eugene4545" /></a> </p>
