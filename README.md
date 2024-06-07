@@ -80,6 +80,9 @@
 </table>
 
 ## About Me <img src="https://media.giphy.com/media/pDh3IDoUswmZrqdRip/giphy.gif" height="27px" width="25px">
+<br>
+<br>
+<p><img align="right" src="./images/animation-for-readme.gif" alt="programmer gif" /></p>
 
 - 🙌🏻&emsp; Let's collaborate
 - 🐍&emsp; I like developing with **Javascript 🤔**
@@ -89,9 +92,8 @@
 - 📧&emsp; Reach anytime: [here](mailto:eugeneonuoha72@gmail.com)
 - 💬&emsp; Leave issues [here](https://github.com/eugene4545)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=eugene4545&rank=-C,-?" alt="eugene4545" /></a> </p>
+<p align="center"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=eugene4545&rank=-C,-?" alt="eugene4545" /></a> </p>
 
 ## Github Stats ⚡
 
