@@ -43,7 +43,7 @@
         <img src="https://techstack-generator.vercel.app/js-icon.svg" width="48" height="48" alt="NextJS" /><br>Javascript
     </td>
     <td align="center" width="96">
-        <img src="https://skillicons.dev/icons?i=nestjs" width="48" height="48" alt="NestJS" /><br>Nestjs
+        <img src="https://skillicons.dev/icons?i=nodejs&theme=dark" width="48" height="48" alt="Nodejs" /><br>Nodejs
     </td>
     <td align="center" width="96">
         <img src="https://skillicons.dev/icons?i=mongodb" width="48" height="48" alt="MongoDB" /><br>MongoDB
@@ -65,8 +65,8 @@
     <td align="center" width="96">
       <img src="https://skillicons.dev/icons?i=tailwind" width="48" height="48" alt="tailwind" /><br>Tailwind
       </td>
-      <td>
-      <img src="https://skillicons.dev/icons?i=figma" alt="icon" width="65" height="65" /><br>figma
+      <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=figma" alt="icon" width="48" height="48" /><br>figma
     </td>
     <td align="center" width="96">
         <img src="https://techstack-generator.vercel.app/jest-icon.svg" width="48" height="48" /><br>Jest
@@ -81,7 +81,7 @@
 - 💬&emsp; Ask me about **Web development**
 - 👨‍💻&emsp; All of my projects are in [here](https://github.com/eugene4545)
 - ⚡&emsp; I have a rapid development speed **Quick**
-- 📧&emsp; Reach anytime: [here](eugeneonuoha72@gmail.com)
+- 📧&emsp; Reach anytime: [here](mailto:eugeneonuoha72@gmail.com)
 - 💬&emsp; Leave issues [here](https://github.com/eugene4545/issues)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
