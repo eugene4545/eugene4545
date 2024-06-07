@@ -40,7 +40,7 @@
         <img src="https://skillicons.dev/icons?i=nextjs" width="48" height="48" alt="NextJS" /><br>Next.js
     </td>
     <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=tailwind" width="48" height="48" alt="tailwind" /><br>Tailwind
+        <img src="https://techstack-generator.vercel.app/js-icon.svg" width="48" height="48" alt="NextJS" /><br>Javascript
     </td>
     <td align="center" width="96">
         <img src="https://skillicons.dev/icons?i=nestjs" width="48" height="48" alt="NestJS" /><br>Nestjs
@@ -57,16 +57,17 @@
       <img src="https://techstack-generator.vercel.app/restapi-icon.svg" width="48" height="48" alt="Rest" /><br>Rest
     </td>
     <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=vue" width="48" height="48" alt="Vue" /><br>Vue.js    
+      <img src="https://techstack-generator.vercel.app/prettier-icon.svg" width="48" height="48" alt="Vue" /><br>Prettier    
     </td>
     <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=postman" width="48" height="48" alt="Vuetify" /><br>Postman
+      <img src="https://skillicons.dev/icons?i=postman" width="48" height="48" alt="Postman" /><br>Postman
     </td>
     <td align="center" width="96">
-      <img src="https://techstack-generator.vercel.app/django-icon.svg" alt="icon" width="65" height="65" /><br>figma
+      <img src="https://skillicons.dev/icons?i=tailwind" width="48" height="48" alt="tailwind" /><br>Tailwind
+      <img src="https://skillicons.dev/icons?i=figma" alt="icon" width="65" height="65" /><br>figma
     </td>
     <td align="center" width="96">
-        <img src="https://techstack-generator.vercel.app/docker-icon.svg" width="48" height="48" /><br>Docker
+        <img src="https://techstack-generator.vercel.app/jest-icon.svg" width="48" height="48" /><br>Jest
     </td>
   </tr>
 </table>
@@ -75,10 +76,10 @@
 
 - 🙌🏻&emsp; Let's collaborate
 - 🐍&emsp; I like developing with **Javascript 🤔**
-- 💬&emsp; Ask me about **Web developing**
+- 💬&emsp; Ask me about **Web development**
 - 👨‍💻&emsp; All of my projects are in [here](https://github.com/eugene4545)
 - ⚡&emsp; I have a rapid development speed **Quick**
-- 📧&emsp; Reach anytime: [here](xxx@gmail.com)
+- 📧&emsp; Reach anytime: [here](eugeneonuoha72@gmail.com)
 - 💬&emsp; Leave issues [here](https://github.com/eugene4545/issues)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
