@@ -1,19 +1,25 @@
-name: Generate Snake Game from GitHub Contribution Grid
-
+name: generate animation
 on:
-  push:
-    branches:
-      - main  # or your main branch name
-
+  schedule:
+    - cron: '0 0 * * 1' # runs the job every monday at midnight UTC
+  workflow_dispatch:
 jobs:
-  generate-snake-game:
+  generate:
+    env:
+      GITHUB_TOKEN: ${{ secrets.TOKEN }}
     runs-on: ubuntu-latest
     steps:
-      - name: Generate Snake Game
+      - name: generate the github contribution grid snake files
         uses: Platane/snk@v3
         with:
-          github_user_name: eugene4545
+          github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
-            dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
+            dist/ocean.gif?color_snake=orange&color_dots=#dfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
+
+      - name: push github contributions grid snake files to output branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
