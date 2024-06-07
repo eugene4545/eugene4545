@@ -81,7 +81,7 @@
 - 💬&emsp; Ask me about **Web development**
 - 👨‍💻&emsp; All of my projects are in [here](https://github.com/eugene4545)
 - ⚡&emsp; I have a rapid development speed **Quick**
-- 📧&emsp; Reach anytime: [here](eugeneonuoha72@gmail.com)
+- 📧&emsp; Reach anytime: [here](mailto:eugeneonuoha72@gmail.com)
 - 💬&emsp; Leave issues [here](https://github.com/eugene4545/issues)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
