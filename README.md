@@ -90,7 +90,6 @@
 - 👨‍💻&emsp; All of my projects are in [here](https://github.com/eugene4545?tab=repositories)
 - ⚡&emsp; I'm currently learning **NextJS**
 - 📧&emsp; Reach anytime: **eugeneonuoha72@gmail.com**
-<h3 align="left">Connect with me :</h3>
 
 
 <p align="right"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=eugene4545&rank=-C,-?" alt="eugene4545" /></a> </p>
