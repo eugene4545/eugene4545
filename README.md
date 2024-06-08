@@ -84,13 +84,31 @@
 <br>
 <p><img align="right" src="./images/animation-for-readme.gif" alt="programmer gif" /></p>
 
-- 🙌🏻&emsp; Let's collaborate
+- 🙌🏻&emsp; Frontend Developer | Javascript | Next.js Enthusiast
 - 🐍&emsp; I like developing with **Javascript 🤔**
-- 💬&emsp; Ask me about **Frontend Development - State Management - Databases - API and Integrations - Styling Frameworks - Version Control**
-- 👨‍💻&emsp; All of my projects are in [here](https://github.com/eugene4545?tab=repositories)
-- ⚡&emsp; I'm currently learning **NextJS**
-- 📧&emsp; Reach anytime: **eugeneonuoha72@gmail.com**
+- 💬&emsp; ### Skills & Interests
 
+*   **Expertise:**
+    * Frontend Development
+    * State Management
+    * Databases
+    * API and Integrations
+    * Styling Frameworks (Mention specific frameworks you're proficient in)
+    * Version Control (Git)
+*   **Learning:** Next.js
+- 👨‍💻&emsp; All of my projects are in [here](https://github.com/eugene4545?tab=repositories)
+*   **Feel free to reach out if you have any questions or collaboration opportunities!**
+- 📧&emsp; Reach anytime: **eugeneonuoha72@gmail.com**
+<h3 align="left">Connect with me :</h3>
+<p align="left">
+  <a href="mailto:eugeneonuoha72@gmail.com" title="email"><img align="center" src="https://skillicons.dev/icons?i=gmail"
+      alt="gmail" height="30" width="40" /></a>
+  <a href="https://wa.me/2348022139195" title="whatsapp"><img align="center"
+      src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/whatsapp.svg"
+      alt="whatsapp" height="30" width="40" /></a>
+	 <a href="https://discord.com/users/eugene_16468" title="discord"><img align="center" src="https://skillicons.dev/icons?i=discord"
+      alt="discord" height="30" width="40" /></a>
+</p>
 
 <p align="right"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=eugene4545&rank=-C,-?" alt="eugene4545" /></a> </p>
 
