@@ -93,7 +93,7 @@
     * State Management
     * Databases
     * API and Integrations
-    * Styling Frameworks (Mention specific frameworks you're proficient in)
+    * Styling Frameworks (Tailwind, Bootstrap)
     * Version Control (Git)
 *   **Learning:** Next.js
 - 👨‍💻&emsp; All of my projects are in [here](https://github.com/eugene4545?tab=repositories)
