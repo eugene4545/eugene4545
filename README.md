@@ -85,7 +85,7 @@
 <p><img align="right" src="./images/animation-for-readme.gif" alt="programmer gif" /></p>
 
 - 🙌🏻&emsp; Frontend Developer | Javascript | Next.js Enthusiast
-- 🐍&emsp; I like developing with **Javascript 🤔**
+- 🐍&emsp; I like developing with **Javascript  😊**
 - 💬&emsp; ### Skills & Interests
 
 *   **Expertise:**
