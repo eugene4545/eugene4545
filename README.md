@@ -7,7 +7,7 @@
 <!-- <img align="right" src="https://user-images.githubusercontent.com/65187002/144930161-2f783401-8d27-4fdf-a2f7-cc0ba32f1f1f.gif" width="30%" style="display:inline;"> -->
 
 <div align="center" style="display: inline-block;">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Pacifico&color=F71B05FF&size=48&center=true&vCenter=true&width=1200&height=100&lines=Hello!,+welcome+to+my+page;My+name+is+Eugene;Frontend+Developer+|+NextJS+Enthusaist;Aspiring+Full+Stack+Developer" alt="Typing SVG" style="display: inline-block;">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Pacifico&color=3FBF06FF&size=48&center=true&vCenter=true&width=1200&height=100&lines=Hello!,+welcome+to+my+page;My+name+is+Eugene;Frontend+Developer+|+NextJS+Enthusaist;Aspiring+Full+Stack+Developer" alt="Typing SVG" style="display: inline-block;">
   <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28" style="display: inline-block;">
 </div>
 
