@@ -92,7 +92,7 @@
 
 - 🙌🏻&emsp; Frontend Developer | Javascript | Next.js Enthusiast
 - 🐍&emsp; I like developing with **Javascript  😊**
-- 💬&emsp; ### Skills & Interests
+<!-- - 💬&emsp; ### Skills & Interests -->
 
 *   **Expertise:**
     * Frontend Development
