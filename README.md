@@ -1,3 +1,4 @@
+<!-- repo snake graphics -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/djebby/djebby/blob/output/github-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://github.com/djebby/djebby/blob/output/github-snake.svg" />
@@ -6,7 +7,8 @@
 <!--<img align="left" src="https://user-images.githubusercontent.com/65187002/144930161-2f783401-8d27-4fdf-a2f7-cc0ba32f1f1f.gif" width="10%" style="display:inline;">
 <!-- <img align="right" src="https://user-images.githubusercontent.com/65187002/144930161-2f783401-8d27-4fdf-a2f7-cc0ba32f1f1f.gif" width="30%" style="display:inline;"> -->
 
-<!-- Typing SVG and waving hand GIF -->
+
+<!-- Typing Info SVG and waving hand GIF -->
 <div align="center" style="display: inline-block;">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.herokuapp.com?font=Pacifico&color=FFFFFF&size=48&center=true&vCenter=true&width=1200&height=100&lines=Hello!;+welcome+to+my+page;My+name+is+Eugene;Frontend+Developer+|+NextJS+Enthusiast;Aspiring+Full+Stack+Developer">
@@ -20,7 +22,7 @@
 
 
 ## Tools and Technologies 🛠
-<!-- wrap the github image with the source tag from picture lets see if it works-->
+<!-- Some of my tech stack -->
 
 <table align="center">
   <tr>
@@ -85,6 +87,7 @@
   </tr>
 </table>
 
+<!-- About me with image -->
 ## About Me <img src="https://media.giphy.com/media/pDh3IDoUswmZrqdRip/giphy.gif" height="27px" width="25px">
 <br>
 <br>
@@ -115,8 +118,11 @@
       alt="discord" height="30" width="40" /></a>
 </p>
 
+<!-- Github trophy -->
 <p align="right"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=eugene4545&rank=-C" alt="eugene4545" /></a> </p>
 
+
+<!-- Github streak + languages -->
 ## Github Stats ⚡
 
 <p align=center>
