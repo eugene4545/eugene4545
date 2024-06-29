@@ -91,7 +91,7 @@
 ## About Me <img src="https://media.giphy.com/media/pDh3IDoUswmZrqdRip/giphy.gif" height="27px" width="25px">
 <br>
 <br>
-<p><img align="right" src="./images/eating.gif" alt="programmer gif" /></p> 
+<!-- <p><img align="right" src="./images/eating.gif" alt="programmer gif" /></p>  -->
 
 - 🙌🏻&emsp; Frontend Developer | Javascript | Next.js Enthusiast
 - 🐍&emsp; I like developing with **Javascript  😊**
