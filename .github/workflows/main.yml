@@ -6,7 +6,7 @@ on:
 jobs:
   generate:
     env:
-      GITHUB_TOKEN: ${{ secrets.TOKEN }}
+      GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
     runs-on: ubuntu-latest
     steps:
       - name: generate the github contribution grid snake files
