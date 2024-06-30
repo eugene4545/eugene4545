@@ -1,8 +1,8 @@
 <!-- repo snake graphics -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/djebby/djebby/blob/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://github.com/djebby/djebby/blob/output/github-snake.svg" />
-  <img alt="github-snake" src="https://github.com/djebby/djebby/blob/output/github-snake.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/eugene4545/eugene4545/blob/output/github-snake-dark.svg?palette=github-dark" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/eugene4545/eugene4545/blob/output/github-snake.svg" />
+  <img alt="github-snake" src="https://github.com/eugene4545/eugene4545/blob/output/github-snake.svg" />
 </picture>
 <!--<img align="left" src="https://user-images.githubusercontent.com/65187002/144930161-2f783401-8d27-4fdf-a2f7-cc0ba32f1f1f.gif" width="10%" style="display:inline;">
 <!-- <img align="right" src="https://user-images.githubusercontent.com/65187002/144930161-2f783401-8d27-4fdf-a2f7-cc0ba32f1f1f.gif" width="30%" style="display:inline;"> -->
