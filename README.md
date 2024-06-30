@@ -91,9 +91,8 @@
 ## About Me <img src="https://media.giphy.com/media/pDh3IDoUswmZrqdRip/giphy.gif" height="27px" width="25px">
 <br>
 <br>
-<div style="border-radius: 8px; overflow: hidden;">
-    <p><img align="right" style="width: 400px; margin-right: 20px;" src="./images/programmer.gif" alt="programmer gif" /></p>
-</div>
+<p><img align="right" style="width: 400px; margin-right: 10px;" src="./images/programmer.gif" alt="programmer" /></p>
+
 
 - 🙌🏻&emsp; Frontend Developer | Javascript | Next.js Enthusiast
 - 🐍&emsp; I like developing with **Javascript  😊**
