@@ -1,15 +1,21 @@
-name: generate animation
+name: Generate Animation
+
 on:
   schedule:
-    - cron: '0 0 * * 1' # runs the job every monday at midnight UTC
-  workflow_dispatch:
+    - cron: '0 0 * * 1' # Runs the job every Monday at midnight UTC
+  workflow_dispatch: # Allows manual triggering of the workflow
+
 jobs:
   generate:
     env:
-      GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
+      GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }} # Use the secret named MY_GITHUB_TOKEN
     runs-on: ubuntu-latest
+
     steps:
-      - name: generate the github contribution grid snake files
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Generate the GitHub contribution grid snake files
         uses: Platane/snk@v3
         with:
           github_user_name: eugene4545
@@ -18,8 +24,10 @@ jobs:
             dist/github-snake-dark.svg?palette=github-dark
             dist/ocean.gif?color_snake=orange&color_dots=#dfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
 
-      - name: push github contributions grid snake files to output branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
+      - name: Push GitHub contributions grid snake files to output branch
+        uses: crazy-max/ghaction-github-pages@v3.2.0 # Update to a version that uses Node.js 20
         with:
-          target_branch: output
-          build_dir: dist
+          target_branch: output # The branch to which the generated files will be pushed
+          build_dir: dist # The directory where the generated files are located
+        env:
+          GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }} # Ensure the token is set correctly
