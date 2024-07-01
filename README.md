@@ -79,10 +79,10 @@
       <img src="https://skillicons.dev/icons?i=tailwind" width="48" height="48" alt="tailwind" /><br>Tailwind
       </td>
       <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=figma" alt="icon" width="48" height="48" /><br>figma
+      <img src="https://skillicons.dev/icons?i=figma" alt="icon" width="48" height="48" alt="figma" /><br>figma
     </td>
     <td align="center" width="96">
-        <img src="https://techstack-generator.vercel.app/jest-icon.svg" width="48" height="48" /><br>Jest
+        <img src="https://techstack-generator.vercel.app/jest-icon.svg" width="48" height="48" alt="jest" /><br>Jest
     </td>
   </tr>
 </table>
