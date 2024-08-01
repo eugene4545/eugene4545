@@ -8,7 +8,7 @@ on:
 jobs:
   generate:
     env:
-      GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }} # Use the secret named MY_GITHUB_TOKEN
+      GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
     runs-on: ubuntu-latest
 
     steps:
@@ -25,9 +25,9 @@ jobs:
             dist/ocean.gif?color_snake=orange&color_dots=#dfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
 
       - name: Push GitHub contributions grid snake files to output branch
-        uses: crazy-max/ghaction-github-pages@v3.2.0 # Update to a version that uses Node.js 20
+        uses: crazy-max/ghaction-github-pages@v3.2.0
         with:
           target_branch: output # The branch to which the generated files will be pushed
           build_dir: dist # The directory where the generated files are located
         env:
-          GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }} # Ensure the token is set correctly
+          GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
