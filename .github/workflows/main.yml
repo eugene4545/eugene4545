@@ -1,6 +1,10 @@
 name: Generate Animation
 
 on:
+  push: # Trigger the workflow on every push (i.e., every new commit)
+    branches:
+      - main
+      - master # Include both main and master branches
   schedule:
     - cron: '0 0 * * *' # Runs the job every midnight UTC
   workflow_dispatch: # Allows manual triggering of the workflow
