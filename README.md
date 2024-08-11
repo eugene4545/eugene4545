@@ -129,7 +129,7 @@
 <p align=center>
   <div align=center>
       <img align="center" width="45%" height="200" src="https://github-readme-streak-stats.herokuapp.com/?user=eugene4545&theme=react&border=61dafb&hide_border=true" alt="dev"/>
-      <img align="center" width="45%" height="200" src="https://github-readme-stats.vercel.app/api/top-langs/?username=eugene4545&theme=react&layout=compact&langs_count=20&hide_title=true"/>
+      <img align="center" width="45%" height="200" src="https://github-readme-stats.vercel.app/api/top-langs/?username=eugene4545&hide_progress=true&theme=react&layout=compact&langs_count=20&hide_title=true"/>
   </div>
   <div align="center">
      
