@@ -91,7 +91,7 @@
 ## About Me <img src="https://media.giphy.com/media/pDh3IDoUswmZrqdRip/giphy.gif" height="27px" width="25px">
 <br>
 <br>
-<p><img align="right" style="width: 400px; margin-right: 10px;" src="./images/programmer.gif" alt="programmer" /></p>
+<p><img align="right" style="width: 400px; margin-right: 10px;" src="images/laptop, computer, device, outdoors, man, people, person.svg" alt="programmer" /></p>
 
 
 - 🙌🏻&emsp; Frontend Developer | Javascript | Next.js Enthusiast
