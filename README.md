@@ -44,6 +44,9 @@
     <td align="center" width="96">
         <img src="https://techstack-generator.vercel.app/github-icon.svg" width="48" height="48" alt="GitHub" /><br>GitHub
     </td>
+	   <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=materialui" alt="icon" width="48" height="48" alt="material_ui" /><br>MaterialUI
+    </td>
   </tr>
   <tr>
     <td align="center" width="96">
@@ -64,6 +67,9 @@
     <td align="center" width="96">
      <img src="https://techstack-generator.vercel.app/redux-icon.svg" alt="icon" width="65" height="65" /><br>Redux
     </td>
+	   <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=postgresql" alt="icon" width="48" height="48" alt="postgresql" /><br>PostgreSQL
+    </td>
   </tr>
   <tr>
     <td align="center" width="96">
@@ -79,7 +85,10 @@
       <img src="https://skillicons.dev/icons?i=tailwind" width="48" height="48" alt="tailwind" /><br>Tailwind
       </td>
       <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=figma" alt="icon" width="48" height="48" alt="figma" /><br>figma
+      <img src="https://skillicons.dev/icons?i=figma" alt="icon" width="48" height="48" alt="figma" /><br>Figma
+    </td>
+      <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=prisma" alt="icon" width="48" height="48" alt="prisma" /><br>Prisma
     </td>
     <td align="center" width="96">
         <img src="https://techstack-generator.vercel.app/jest-icon.svg" width="48" height="48" alt="jest" /><br>Jest
