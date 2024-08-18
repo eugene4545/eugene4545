@@ -117,7 +117,12 @@
 - 👨‍💻&emsp; All of my projects are in [here](https://github.com/eugene4545?tab=repositories)
 *   **Feel free to reach out if you have any questions or collaboration opportunities!**
 - 📧&emsp; Reach anytime: **eugeneonuoha72@gmail.com**
-<h3 align="left">Connect with me :</h3>
+  
+<h3 style="display: flex; align-items: center;">
+  Connect with me
+  <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="60" style="margin-left: 10px;">
+</h3>
+
 <p align="left">
   <a href="mailto:eugeneonuoha72@gmail.com" title="email"><img align="center" src="https://skillicons.dev/icons?i=gmail"
       alt="gmail" height="30" width="40" /></a>
