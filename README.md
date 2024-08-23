@@ -114,6 +114,7 @@
     * API and Integrations
     * Styling Frameworks (Tailwind, Bootstrap)
     * Version Control (Git)
+    * Open Source Contributions
 - 👨‍💻&emsp; All of my projects are in [here](https://github.com/eugene4545?tab=repositories)
 *   **Feel free to reach out if you have any questions or collaboration opportunities!**
 - 📧&emsp; Reach anytime: **eugeneonuoha72@gmail.com**
