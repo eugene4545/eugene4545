@@ -19,56 +19,34 @@ jobs:
 
       - name: List SVG Images
         run: |
-          # List SVG images
           echo "Listing SVG images in the 'images' folder:"
           ls images/*.svg
 
       - name: Rotate Image
         run: |
-          # Get a list of all SVG files in the images folder
           images=($(ls images/*.svg))
-
-          # Check if there are any images
           if [ ${#images[@]} -eq 0 ]; then
             echo "No SVG images found."
             exit 1
           fi
-
-          # Read the current image index from a file, or start at 0 if the file doesn't exist
           if [ -f image_index.txt ]; then
             index=$(cat image_index.txt)
           else
             index=0
           fi
-
-          # Increment the index, wrapping around if necessary
           index=$(( (index + 1) % ${#images[@]} ))
-
-          # Get the next image based on the updated index
           next_image=${images[$index]}
-
-          # Debugging
+          echo "Images array: ${images[@]}"
+          echo "Index: $index"
           echo "Next image: $next_image"
-          echo "Current index: $index"
-
-          # Print README.md before modification
-          echo "Before modification:"
-          cat README.md
-
-          # Update the README.md file to point to the next SVG image
           sed -i "s|<img align=\"right\" style=\"width: 400px; margin-right: 10px;\" src=\"images/.*\"|<img align=\"right\" style=\"width: 400px; margin-right: 10px;\" src=\"$next_image\"|g" README.md
-
-          # Print README.md after modification
-          echo "After modification:"
-          cat README.md
-
-          # Save the new index for the next run
           echo $index > image_index.txt
 
       - name: Commit and Push Changes
         run: |
+          next_image_basename=$(basename "$next_image")
           git add README.md image_index.txt
-          git commit -m "Rotate image to $(basename $next_image)"
+          git commit -m "Rotate image to $next_image_basename"
           git push
         env:
           CYCLE_TOKEN: ${{ secrets.CYCLE_TOKEN }}
