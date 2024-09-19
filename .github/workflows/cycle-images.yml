@@ -23,16 +23,12 @@ jobs:
           echo "Listing SVG images in the 'images' folder:"
           ls images/*.svg
 
-      # Debugging step to print images array
-      - name: Debug Images Array
-        run: |
-          images=($(ls images/*.svg))
-          echo "Images found: ${images[@]}"
-          echo "Number of images: ${#images[@]}"
-
       - name: Rotate Image
         run: |
-          # More debugging steps to check the value of variables
+          # Initialize images array
+          images=($(ls images/*.svg))
+
+          # Debugging - Check if image_index.txt exists and read the index
           if [ -f image_index.txt ]; then
             index=$(cat image_index.txt)
           else
@@ -40,25 +36,31 @@ jobs:
           fi
           echo "Current index: $index"
 
+          # Calculate the new index
           index=$(( (index + 1) % ${#images[@]} ))
           next_image=${images[$index]}
 
+          # Debugging - Output next image and new index
           echo "Next image: $next_image"
           echo "New index: $index"
+
+          # Save the new index to image_index.txt
+          echo $index > image_index.txt
 
           # Debugging - Print README before modification
           echo "Before modification:"
           cat README.md
 
-          # Modify the README
+          # Modify the README to update the image source
           sed -i "s|<img align=\"right\" style=\"width: 400px; margin-right: 10px;\" src=\"images/.*\"|<img align=\"right\" style=\"width: 400px; margin-right: 10px;\" src=\"$next_image\"|g" README.md
 
           # Debugging - Print README after modification
           echo "After modification:"
           cat README.md
 
-      # Debugging step to check commit details
-      - name: Debug Commit Message
+      - name: Commit Changes
         run: |
-          next_image_basename=$(basename "$next_image")
-          echo "Committing image: $next_image_basename"
+          # Commit the updated README and index file
+          git add README.md image_index.txt
+          git commit -m "Update image in README to $(basename "$next_image")"
+          git push
