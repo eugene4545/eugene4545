@@ -19,15 +19,15 @@ jobs:
 
       - name: Rotate Image
         run: |
-          # Get a list of all image files in the images folder
-          images=($(ls images/*))
+          # Get a list of all SVG files in the images folder
+          images=($(ls images/*.svg))
 
           # Debugging
-          echo "Images found: ${images[@]}"
+          echo "SVG Images found: ${images[@]}"
 
           # Check if there are any images
           if [ ${#images[@]} -eq 0 ]; then
-            echo "No images found."
+            echo "No SVG images found."
             exit 1
           fi
 
@@ -52,7 +52,7 @@ jobs:
           echo "Before modification:"
           cat README.md
 
-          # Update the README.md file to point to the next image
+          # Update the README.md file to point to the next SVG image
           sed -i "s|<img align=\"right\" style=\"width: 400px; margin-right: 10px;\" src=\"images/.*\"|<img align=\"right\" style=\"width: 400px; margin-right: 10px;\" src=\"$next_image\"|g" README.md
 
           # Print README.md after modification
