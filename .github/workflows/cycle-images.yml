@@ -17,13 +17,16 @@ jobs:
           git config --global user.name "eugene4545"
           git config --global user.email "eugeneonuoha72@gmail.com"
 
+      - name: List SVG Images
+        run: |
+          # List SVG images
+          echo "Listing SVG images in the 'images' folder:"
+          ls images/*.svg
+
       - name: Rotate Image
         run: |
           # Get a list of all SVG files in the images folder
           images=($(ls images/*.svg))
-
-          # Debugging
-          echo "SVG Images found: ${images[@]}"
 
           # Check if there are any images
           if [ ${#images[@]} -eq 0 ]; then
