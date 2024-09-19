@@ -64,3 +64,5 @@ jobs:
           git add README.md image_index.txt
           git commit -m "Update image in README to $(basename "$next_image")"
           git push
+        env:
+          CYCLE_TOKEN: ${{ secrets.CYCLE_TOKEN }}
