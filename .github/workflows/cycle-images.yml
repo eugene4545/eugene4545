@@ -25,7 +25,7 @@ jobs:
 
       - name: Rotate Image
         run: |
-          # Initialize images array
+          # Initialize images array (for this to work workflow permissions have to be set to read and write)
           images=($(ls images/*.svg))
 
           # Debugging - Check if image_index.txt exists and read the index
@@ -57,7 +57,7 @@ jobs:
           # Debugging - Print README after modification
           echo "After modification:"
           cat README.md
-
+        
       - name: Commit Changes
         run: |
           git config --global user.name "github-actions"
