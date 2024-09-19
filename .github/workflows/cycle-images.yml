@@ -2,7 +2,7 @@ name: Cycle Through Images in README
 
 on:
   schedule:
-    - cron: '0 0 * * *' # Runs every day at midnight UTC
+    - cron: '0 23 * * *' # Runs every day at 11 pm UTC (12 am WAT)
   workflow_dispatch: # Allows manual triggering of the workflow
 
 jobs:
