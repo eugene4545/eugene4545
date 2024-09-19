@@ -60,9 +60,10 @@ jobs:
 
       - name: Commit Changes
         run: |
-          # Commit the updated README and index file
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
           git add README.md image_index.txt
           git commit -m "Update image in README to $(basename "$next_image")"
-          git push
+          git push https://x-access-token:${{ secrets.CYCLE_TOKEN }}@github.com/${{ github.repository }} main
         env:
           CYCLE_TOKEN: ${{ secrets.CYCLE_TOKEN }}
