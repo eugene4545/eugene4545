@@ -19,34 +19,46 @@ jobs:
 
       - name: List SVG Images
         run: |
+          # List SVG images
           echo "Listing SVG images in the 'images' folder:"
           ls images/*.svg
 
-      - name: Rotate Image
+      # Debugging step to print images array
+      - name: Debug Images Array
         run: |
           images=($(ls images/*.svg))
-          if [ ${#images[@]} -eq 0 ]; then
-            echo "No SVG images found."
-            exit 1
-          fi
+          echo "Images found: ${images[@]}"
+          echo "Number of images: ${#images[@]}"
+
+      - name: Rotate Image
+        run: |
+          # More debugging steps to check the value of variables
           if [ -f image_index.txt ]; then
             index=$(cat image_index.txt)
           else
             index=0
           fi
+          echo "Current index: $index"
+
           index=$(( (index + 1) % ${#images[@]} ))
           next_image=${images[$index]}
-          echo "Images array: ${images[@]}"
-          echo "Index: $index"
-          echo "Next image: $next_image"
-          sed -i "s|<img align=\"right\" style=\"width: 400px; margin-right: 10px;\" src=\"images/.*\"|<img align=\"right\" style=\"width: 400px; margin-right: 10px;\" src=\"$next_image\"|g" README.md
-          echo $index > image_index.txt
 
-      - name: Commit and Push Changes
+          echo "Next image: $next_image"
+          echo "New index: $index"
+
+          # Debugging - Print README before modification
+          echo "Before modification:"
+          cat README.md
+
+          # Modify the README
+          sed -i "s|<img align=\"right\" style=\"width: 400px; margin-right: 10px;\" src=\"images/.*\"|<img align=\"right\" style=\"width: 400px; margin-right: 10px;\" src=\"$next_image\"|g" README.md
+
+          # Debugging - Print README after modification
+          echo "After modification:"
+          cat README.md
+
+      # Debugging step to check commit details
+      - name: Debug Commit Message
         run: |
           next_image_basename=$(basename "$next_image")
-          git add README.md image_index.txt
-          git commit -m "Rotate image to $next_image_basename"
-          git push
-        env:
-          CYCLE_TOKEN: ${{ secrets.CYCLE_TOKEN }}
+          echo "Committing image: $next_image_basename"
