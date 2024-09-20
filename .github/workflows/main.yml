@@ -1,4 +1,4 @@
-name: Generate Animation
+name: Generate snake Animation
 
 on:
   push: # Trigger the workflow on every push (i.e., every new commit)
