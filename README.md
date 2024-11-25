@@ -45,7 +45,7 @@
         <img src="https://techstack-generator.vercel.app/github-icon.svg" width="48" height="48" alt="GitHub" /><br>GitHub
     </td>
 	   <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=materialui" alt="icon" width="48" height="48" alt="material_ui" /><br>MaterialUI
+      <img src="https://techstack-generator.vercel.app/aws-icon.svg" width="48" height="48" alt="aws" /><br>aws
     </td>
   </tr>
   <tr>
