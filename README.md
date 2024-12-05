@@ -45,8 +45,8 @@
         <img src="https://techstack-generator.vercel.app/github-icon.svg" width="48" height="48" alt="GitHub" /><br>GitHub
     </td>
 	   <td align="center" width="96">
-      <img src="https://techstack-generator.vercel.app/aws-icon.svg" width="48" height="48" alt="aws" /><br>aws
-    </td>
+	    <img src="https://techstack-generator.vercel.app/jest-icon.svg" width="48" height="48" alt="jest" /><br>Jest
+	   </td>
   </tr>
   <tr>
     <td align="center" width="96">
@@ -91,7 +91,7 @@
       <img src="https://skillicons.dev/icons?i=prisma" alt="icon" width="48" height="48" alt="prisma" /><br>Prisma
     </td>
     <td align="center" width="96">
-        <img src="https://techstack-generator.vercel.app/jest-icon.svg" width="48" height="48" alt="jest" /><br>Jest
+	<img src="https://techstack-generator.vercel.app/aws-icon.svg" width="48" height="48" alt="aws" /><br>aws
     </td>
   </tr>
 </table>
