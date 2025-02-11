@@ -11,7 +11,7 @@
 <!-- Typing Info SVG and waving hand GIF -->
 <div align="center" style="display: inline-block;">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.herokuapp.com?font=Pacifico&color=FFFFFF&size=48&center=true&vCenter=true&width=1200&height=100&lines=welcome+to+my+page!;My+name+is+Eugene;Frontend+Developer+|+Open+-+Source+Enthusiast;Aspiring+Full+Stack+Developer">
+    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.herokuapp.com?font=Pacifico&color=FFFFFF&size=48&center=true&vCenter=true&width=1200&height=100&lines=welcome+to+my+page!;My+name+is+Eugene;Frontend+Developer+|+Open+-+Source+disciple;Aspiring+Full+Stack+Developer">
     <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.herokuapp.com?font=Pacifico&color=000000&size=48&center=true&vCenter=true&width=1200&height=100&lines=welcome+to+my+page!;My+name+is+Eugene;Frontend+Developer+|+Open+-+Source+Enthusiast;Aspiring+Full+Stack+Developer">
     <img src="https://readme-typing-svg.herokuapp.com?font=Pacifico&color=000000&size=48&center=true&vCenter=true&width=1200&height=100&lines=Hello!;+welcome+to+my+page;My+name+is+Eugene;Frontend+Developer+|+NextJS+Enthusiast;Aspiring+Full+Stack+Developer" alt="Typing SVG" style="display: inline-block;">
   </picture>
