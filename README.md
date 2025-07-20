@@ -132,7 +132,7 @@
 </p>
 
 <!-- Github trophy -->
-<p align="center"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=eugene4545&rank=-B&rank=-?" alt="eugene4545" /></a> </p>
+<p align="center"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=eugene4545&rank=-B&rank=-?&rank=-C" alt="eugene4545" /></a> </p>
 
 
 <!-- Github streak + languages -->
